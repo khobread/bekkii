@@ -4,8 +4,19 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
-        <h1>Bekkii Store</h1>
+
+        <div className="navbar">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Order</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+
+        <h1>Bekkii</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

@@ -3,9 +3,9 @@ import App from '../App';
 import {render, screen} from "@testing-library/react"
 
 describe("App", () => {
-    it("has a header that says Bekkii Store", () => {
+    it("has a header that says Bekkii", () => {
         render(<App />);
-        expect(screen.getByText("Bekkii Store")).toBeInTheDocument();
+        expect(screen.getByText("Bekkii")).toBeInTheDocument();
     });
     
 }); //arrow functions > functions for callback (ES2015; best practice)
